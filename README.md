@@ -12,7 +12,7 @@ oc new-app --name=ocp46toolkit aroute/ocp46toolkit
 2. Access terminal.
 
 ```
-oc rsh/pod <name of the pod>
+oc rsh pod/ocp46toolkit-1-xxxxx
 ```
 
 3. Install Cloud Pak CLI in your home directory. Don't forget to upload your `repo.yaml` file.
